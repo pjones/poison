@@ -1,5 +1,9 @@
 {{ define "main" -}}
 <h1 class="title">{{ .Title }}</h1>
+{{ if .Content }}
+  {{ .Content }}
+  <h2>{{or .Params.related_title "Related Posts"}}</h2>
+{{ end }}
 <ul class="entries">
     {{ range .Pages.GroupByDate "2006" }}
         <h3 style="text-align: center;">{{ .Key }}</h3>
