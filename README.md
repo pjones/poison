@@ -353,6 +353,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     telegram_url = "https://telegram.org"
     tryhackme_url = "https://tryhackme.com"
     twitter_url = "https://twitter.com"
+    bluesky_url = "https://bsky.app/profile"
     xmpp_url = "https://xmpp.org"
     youtube_url = "https://youtube.com"
 
